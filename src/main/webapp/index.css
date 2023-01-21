@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    padding: 0 50px;
+    height: fit-content;   
+}
+
+@media screen and (max-width:760px){
+    .main{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .main{
+        width: 80%;
+        box-shadow: 0 0 10px 3px rgb(173, 173, 173);
+    }   
+}
+
+@media screen and (min-width:1700px) {
+    .main{
+        width: 60%;
+    }   
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.aboutPage, .skillsPage, .achievementsPage, .educationPage, .experiencePage, .projectsPage, .contactPage{
+    border-radius: 5px;
+    border: 2px solid rgb(92, 91, 91);
+}
+
+.formargin{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.welcomePage{
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    margin-top: 5%;
+    transform: skewY(10deg);
+    background: rgb(233, 233, 233);
+}
+
+    #welcomeMessage{
+        position: absolute;
+        top: 0;
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        #welcomeMessage span{
+            position: absolute;
+            left: 20%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+
+            em, td{
+                color: rgb(172, 137, 91);
+                font-weight: bold;
+            }
+
+            i{
+                color: rgb(92, 91, 91);
+            }
+
+            table{
+                position: relative;
+                width: 50%;
+                margin-top: 20px;
+                padding: 10px 15px;
+                border: 2px solid red;
+            }
+            td,th{
+				padding: 5px 10px;
+			}
+
+    #image{
+        position: absolute;
+        top: 0;
+        left: 60%;
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        #image span{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            margin-left: 20px;
+        }
+
+            img{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                border: 1px solid #000;
+            }
+
+.aboutPage, .educationPage, .experiencePage, .skillsPage, 
+.achievementsPage, .contactPage, .projectsPage{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sideHeading{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 30px;
+}
+
+hr{
+    width: 100%;
+}
+
+.bodyContent{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+    .training{
+        margin: -20px 0 50px 0;
+    }
+
+
+    
